@@ -50,7 +50,7 @@ async def resolve(ctx, ip: str):
 
 
     # online
-    if json_object["Online"] == 'True':
+    if json_object["online"] == 'True':
         status = "✅ Server online"
     else:
         status = "ofline"
